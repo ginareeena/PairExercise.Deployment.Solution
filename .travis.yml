@@ -4,7 +4,7 @@ node_js:
 services:
   - postgresql # starts up postgres
 addons:
-  postgresql: '9.6' # highest available postgres version on Travis
+  postgresql: "9.6" # highest available postgres version on Travis
 dist: trusty # uses trusty environment
 sudo: false # when on trusty, uses Docker containers for speed
 notifications:
@@ -25,4 +25,5 @@ deploy: # see README for details on these keys
   app: salty-island-09434
   # the secure key indicates an encrypted value; see README
   api_key:
-    secure: hY6q8GWUKOB14k5g2IUMhgbvoNkPqvdyv/DmboCdNe0V5sHiyUYkv9yCTAmCjefvpXmPSzuZQQyU0cA1E1VvojsiSHLr/TNL2GaF2/cNQZOr48jxyJ1Ls+CZpOIk1hdSZDI9wO+h43+8+92n1XeqYkJv3T9MG0EZHApJiAQ385iYcWkgOF2khJ/MShNQOMm1Khwzt82tz4quiVxnkJzQbBsbz6HblWIopf8F0goYEuX3SqQH7uofxmy8ZxOisnEP6TFrpQoQCv7XjlaAxXNm2AeeJDgVFPXL7n7VlSKNOAWgaOi3E/V2dM8PRXS9ah9vJHEG9yPo/mmhkhBFgFlm8IZIVY0J5u+Ejqiylbq9V0nGxcuPFJ3LW07W54KtJi8xQWdhOkpeJWwcKHXrSvXImyMz/kv26G/sfxgGDrdzP8hnVBqXuzlYHoupvv0WtEENF9PRzxjfVI08kvNva4qIJ7cF2cMOEl9kXVP9FYsixWnzrUFAQwIkB17gcQ15CJoXNp4MfBE7fmOefgcpCPT04c1iWGrI4ZGEypLYD4ZWlhNufCE1Bkq3kTNt9H2I5/jxxWvgO48iT2KmgGDZ1dz1gZDdxLzl0ucagG2a8cVqEyNoCcIEXabgqOsircKLMhauoQPvht/3OZ+tC0MXA6YuFMIiwNTMw1B2OA6Wg7GfPr8=
+    secure: 0e648fb68797a99750b6eb9d1183ff60367b3504
+#old key: hY6q8GWUKOB14k5g2IUMhgbvoNkPqvdyv/DmboCdNe0V5sHiyUYkv9yCTAmCjefvpXmPSzuZQQyU0cA1E1VvojsiSHLr/TNL2GaF2/cNQZOr48jxyJ1Ls+CZpOIk1hdSZDI9wO+h43+8+92n1XeqYkJv3T9MG0EZHApJiAQ385iYcWkgOF2khJ/MShNQOMm1Khwzt82tz4quiVxnkJzQbBsbz6HblWIopf8F0goYEuX3SqQH7uofxmy8ZxOisnEP6TFrpQoQCv7XjlaAxXNm2AeeJDgVFPXL7n7VlSKNOAWgaOi3E/V2dM8PRXS9ah9vJHEG9yPo/mmhkhBFgFlm8IZIVY0J5u+Ejqiylbq9V0nGxcuPFJ3LW07W54KtJi8xQWdhOkpeJWwcKHXrSvXImyMz/kv26G/sfxgGDrdzP8hnVBqXuzlYHoupvv0WtEENF9PRzxjfVI08kvNva4qIJ7cF2cMOEl9kXVP9FYsixWnzrUFAQwIkB17gcQ15CJoXNp4MfBE7fmOefgcpCPT04c1iWGrI4ZGEypLYD4ZWlhNufCE1Bkq3kTNt9H2I5/jxxWvgO48iT2KmgGDZ1dz1gZDdxLzl0ucagG2a8cVqEyNoCcIEXabgqOsircKLMhauoQPvht/3OZ+tC0MXA6YuFMIiwNTMw1B2OA6Wg7GfPr8=
